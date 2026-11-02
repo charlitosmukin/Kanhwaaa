@@ -23,6 +23,7 @@ jobs:
         with:
     accept-android-sdk-licenses: true
 
+
     - name: Grant execute permission for gradlew
       run: chmod +x gradlew
       continue-on-error: true
